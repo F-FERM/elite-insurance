@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Elite Insurance",
   description: "Elite Insurance",
   icons: {
-    icon: "/logo.png",
+    icon: "/icon.png",
     
   },
 };
