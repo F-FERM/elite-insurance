@@ -3,18 +3,25 @@ import { Outfit, Poppins } from "next/font/google";
 import iconPhone from "../../../public/home.png";
 import iconMail from "../../../public/mail.png";
 import iconPin from "../../../public/location.png";
-import partner1 from "../../../public/logo1.png";
-import partner2 from "../../../public/icic.png";
-import partner3 from "../../../public/logo3.png";
-import partner4 from "../../../public/logo4.png";
-import partner5 from "../../../public/logo5.png";
-import partner6 from "../../../public/logo6.png";
+import partner1 from "../../../public/p1.png";
+import partner2 from "../../../public/p2.png";
+import partner3 from "../../../public/p3.png";
+import partner4 from "../../../public/p4.png";
+import partner5 from "../../../public/p5.png";
+import partner6 from "../../../public/p6.png";
+import partner7 from "../../../public/p7.png";
+import partner8 from "../../../public/p8.png";
+import partner9 from "../../../public/p9.png";
+import partner10 from "../../../public/p10.png";
+import partner11 from "../../../public/p11.png";
+
+
 
 const outfit = Outfit({ subsets: ["latin"], weight: ["700"] });
 const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
 const PAD = "px-4 sm:px-8 lg:px-12 xl:px-20";
 
-const PARTNERS = [partner1, partner2, partner3, partner4, partner5, partner6];
+const PARTNERS = [partner1, partner2, partner3, partner4, partner5, partner6, partner7, partner8, partner9, partner10, partner11];
 
 const TEXT = {
   fontWeight: 400,
@@ -136,7 +143,7 @@ export default function EliteFooter() {
               className="mt-4 w-full overflow-hidden lg:w-[722px] lg:max-w-full"
               aria-label="Partner insurance companies"
             >
-              <div className="flex w-max animate-[partners-scroll_28s_linear_infinite] motion-reduce:animate-none">
+              <div className="flex w-max animate-[partners-scroll_10s_linear_infinite] motion-reduce:animate-none">
                 {GROUPS.map((g) => (
                   <ul
                     key={g}
