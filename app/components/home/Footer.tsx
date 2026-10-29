@@ -111,11 +111,11 @@ export default function EliteFooter() {
                 className="h-10 w-10 shrink-0 object-contain"
               />
               <a
-                href="mailto:eliteinsuranceclt@gmail.com"
+                href="mailto:info@eliteinsuranceservices.in"
                 className="break-all text-[14px] transition-colors hover:text-[#E3282C]"
                 style={TEXT}
               >
-                eliteinsuranceclt@gmail.com
+                info@eliteinsuranceservices.in
               </a>
             </li>
 

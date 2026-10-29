@@ -8,7 +8,7 @@ import { ArrowUpRight, ChevronDown, Loader2 } from "lucide-react";
 
 const dmSans = DM_Sans({ subsets: ["latin"], weight: ["400", "700"] });
 const manrope = Manrope({ subsets: ["latin"], weight: ["800"] });
-const TO_EMAIL = "eliteinsuranceclt@gmail.com";
+const TO_EMAIL = "info@eliteinsuranceservices.in";
 
 /* ================= TYPES ================= */
 interface ContactFormData {

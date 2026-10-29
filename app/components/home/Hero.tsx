@@ -32,7 +32,7 @@ const NAV_LINKS = [
   { label: "Claim Support", href: "#claim" },
 ];
 
-const EMAIL = "eliteinsuranceclt@gmail.com";
+const EMAIL = "info@eliteinsuranceservices.in";
 const PHONE_LABEL = "+91 8848013168";
 const PHONE_HREF = "tel:+918848013168";
 
